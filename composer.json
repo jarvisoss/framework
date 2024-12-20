@@ -1,7 +1,6 @@
 {
 	"name": "jarvisoss/framework",
 	"description": "Small MVC Framework for everyone",
-	"version": "1.0.0",
 	"type": "library",
 	"homepage": "https://github.com/jarvisoss/framework",
 	"license": "MIT",
