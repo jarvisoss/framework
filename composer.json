@@ -1,0 +1,36 @@
+{
+	"name": "jarvisoss/framework",
+	"description": "Small MVC Framework for everyone",
+	"version": "1.0.0",
+	"type": "library",
+	"homepage": "https://github.com/jarvisoss/framework",
+	"license": "MIT",
+	"autoload": {
+		"psr-4": {
+			"Jarvis\\Framework\\": "src/"
+		}
+	},
+	"authors": [
+		{
+			"name": "backendsamurai",
+			"email": "pokrivchakzvitalja@gmail.com",
+			"homepage": "https://github.com/backendsamurai",
+			"role": "maintainer"
+		}
+	],
+	"minimum-stability": "dev",
+	"require": {
+		"php": "7.4.*",
+		"php-di/php-di": "6.4.0",
+		"vlucas/phpdotenv": "v5.4.1",
+		"fenom/fenom": "2.12.1",
+		"twig/twig": "v3.4.1",
+		"ext-json": "*",
+		"ext-fileinfo": "*",
+		"doctrine/annotations": "1.13.2",
+		"symfony/cache": "5.4.x-dev",
+		"doctrine/orm": "2.13.x-dev",
+		"doctrine/dbal": "3.4.x-dev",
+		"filp/whoops": "^2.14"
+	}
+}
